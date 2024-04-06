@@ -26,7 +26,7 @@ const questions = [
     },
 ]
 
-
+//function for finding random question in json questions based on index
 function randomWYRQuestion() {
     const randomIndex = Math.floor(Math.random() * questions.length)
     const randomQuestion = questions[randomIndex]
